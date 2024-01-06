@@ -1,6 +1,6 @@
 # Dr. AI Guru - Virtual Wellness Companion
 
-![Desktop Version](https://github.com/bhuvansa/hacksprint_a2/demo_images/blob/main/DesktopView1.png?raw=true)
+![Desktop Version](https://github.com/bhuvansa/hacksprint_a2/blob/main/demo_images/DesktopView1.png?raw=true)
 Dr. AI Guru is your Virtual Wellness Companion with Medical AI Chatbot Expertise. Engage in informative conversations, receive health recommendations, and explore a new era of personalized healthcare guidance.
 
 ## Table of Contents
