@@ -45,7 +45,7 @@ To run Dr. AI Guru locally, follow these steps:
 
 ## Dependencies
 •⁠  ⁠Streamlit
-•⁠  ⁠OpenAI GPT-3.5
+•⁠  ⁠OpenAI 
 •⁠  ⁠Other dependencies listed in ⁠ requirements.txt ⁠
 
 ## Contact
