@@ -1,4 +1,5 @@
-from openai import OpenAI
+# Import necessary libraries
+from openai import OpenAI   # Assuming OpenAI library is used, make sure it's installed
 import streamlit as st
 
 # Set the page layout width
