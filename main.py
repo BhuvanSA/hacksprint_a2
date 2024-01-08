@@ -39,7 +39,7 @@ st.markdown(
         }
 
         .marquee {
-            animation: marquee 30s linear infinite;
+            animation: marquee 20s linear infinite;
         }
 
         @keyframes marquee {
@@ -62,7 +62,6 @@ with st.container():
         st.markdown('<h1 style="color: #2C0AE2; font-size: 50px; margin-bottom:0;">Dr.AI GURU</h1>', unsafe_allow_html=True)
         st.markdown('<h4 style="margin-top: 0;">Your Virtual Wellness Companion with Medical AI Chatbot Expertise</h4>', unsafe_allow_html=True)
         disclaimer_text = 'Disclaimer: Dr. AI GURU provides general health info. For personalized advice, consult a healthcare professional. Always visit a doctor for proper medication.'
-        #st.markdown(f'<h1 class="marquee">{disclaimer_text}</h1>', unsafe_allow_html=True)
         st.markdown('<h1 style="color: red; font-size: 35px">Description :</h1>', unsafe_allow_html=True)
         st.markdown('<h3>Dr. AI GURU is more than just a chatbot, it\'s your ally in achieving and maintaining optimal wellness. Engage in informative conversations, receive health recommendations, and explore a new era of personalized healthcare guidance</h3>', unsafe_allow_html=True)
 
