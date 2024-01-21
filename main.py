@@ -136,7 +136,8 @@ with st.container():
         st.session_state.messages = []
 
     if prompt := st.text_input("How Are You Feeling Today?"):
-        newPrompt = "PLEASE SAY I DON'T HAVE INFORMATION ABOUT THAT AND DON'T HELP IN ANY WAY FOR NON-MEDICAL PROMPTS" + prompt + f"Do note that I am {gender}, belonging to {age_group} age group. I previously had {previous_medical_record} medical conditions,"  
+        # newPrompt = "PLEASE SAY I DON'T HAVE INFORMATION ABOUT THAT AND DON'T HELP IN ANY WAY FOR NON-MEDICAL PROMPTS" + prompt + f"Do note that I am {gender}, belonging to {age_group} age group. I previously had {previous_medical_record} medical conditions,"  
+        newPrompt = prompt 
         st.session_state.messages.append({"role": "user", "content": newPrompt})
         with st.chat_message("user"):
             st.markdown(prompt)
@@ -144,7 +145,7 @@ with st.container():
             message_placeholder = st.empty()
             full_response = ""
             # OpenAI API call with context
-            client = OpenAI(base_url="http://localhost:1234/v1", api_key="not-needed")
+            client = OpenAI(base_url="http://test.bhuvansa.com:80/v1", api_key="not-needed")
             for response in client.chat.completions.create(
                 model="local-model",
                 messages=[{"role": m["role"], "content": m["content"]}
