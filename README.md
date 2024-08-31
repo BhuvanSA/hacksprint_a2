@@ -51,4 +51,4 @@ To run Dr. AI Guru locally, follow these steps:
 ## Contact
 For any inquiries or issues, please contact us at:
 •⁠  ⁠Email: bhuvansaraj2003@gmail.com, sdk381975@gmail.com, gouthamgat123@gmail.com, prajwalppatil2332004@gmail.com
-•⁠  ⁠Website: [https://bhuvansa.github.io](https://bhuvansa.github.io)
+•⁠  ⁠Website: [https://bhuvansa.github.io](https://bhuvansa.com)
