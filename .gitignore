@@ -4,4 +4,7 @@ secrets.toml
 # MacOS
 .DS_Store
 
+#python
+__pycache__
+
 

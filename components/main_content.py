@@ -9,7 +9,7 @@ def update_session_state(key):
 
 
 def render_main_content():
-    disclaimer_text = "Disclaimer: Dr. AI GURU provides general health info. For personalized advice, consult a healthcare professional. Always visit a doctor for proper medication."
+    disclaimer_text = "Disclaimer: Dr. AI GURU provides general health information based on your input. For medical advice, diagnosis, or treatment, always consult with a qualified healthcare professional."
 
     col1, col2, col3 = st.columns([1, 1, 10])
 

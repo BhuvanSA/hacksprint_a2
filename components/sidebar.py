@@ -16,6 +16,6 @@ def render_sidebar():
             unsafe_allow_html=True,
         )
         st.markdown(
-            "<h3>Dr. AI GURU is more than just a chatbot, it's your ally in achieving and maintaining optimal wellness. Engage in informative conversations, receive health recommendations, and explore a new era of personalized healthcare guidance</h3>",
+            "<h3>Dr. AI GURU is a medical AI assistant designed to provide general health information and advice. It considers your age, gender, and medical history to offer personalized guidance. Remember, while Dr. AI GURU can provide helpful insights, it's not a substitute for professional medical advice.</h3>",
             unsafe_allow_html=True,
         )
