@@ -3,7 +3,7 @@
 ![Desktop Version 1](https://github.com/bhuvansa/hacksprint_a2/blob/main/demo_images/DesktopView1.png?raw=true)
 ![Desktop Version 2](https://github.com/bhuvansa/hacksprint_a2/blob/main/demo_images/DesktopView2.png?raw=true)
 ![Mobile Version](https://github.com/bhuvansa/hacksprint_a2/blob/main/demo_images/MobileView.png?raw=true)
-\n\n
+
 Dr. AI Guru is your Virtual Wellness Companion with Medical AI Chatbot Expertise. Engage in informative conversations, receive health recommendations, and explore a new era of personalized healthcare guidance.
 
 ## Table of Contents
@@ -27,7 +27,7 @@ Dr. AI Guru is a Streamlit application that combines medical AI chatbot expertis
 ## Getting Started
 To use Dr. AI Guru, follow these steps:
 
- 1.⁠ ⁠Visit the deployed application at [Your Deployed App URL](https://bhuvansa.nishithpshetty.cf).
+ 1.⁠ ⁠Visit the deployed application at [hacksprinta2.streamlit.app/](https://hacksprinta2.streamlit.app/).
  2.⁠ ⁠Interact with the chat interface and input your age, gender, and previous medical record.
  3.⁠ ⁠Receive personalized health recommendations and guidance.
 
@@ -35,8 +35,9 @@ To use Dr. AI Guru, follow these steps:
 To run Dr. AI Guru locally, follow these steps:
 
  1.⁠ ⁠Clone the repository: ⁠ git clone https://github.com/bhuvansa/draiguru.git ⁠
- 2.⁠ ⁠Install dependencies: ⁠ pip install -r requirements.txt ⁠
- 3.⁠ ⁠Run the application: ⁠ streamlit run main.py ⁠
+ 2.⁠ ⁠Install dependencies: ⁠ pip install -r requirements.txt 
+ 3. Setup secrets.toml [docs](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management)
+ 4.⁠ ⁠Run the application: ⁠ streamlit run main.py ⁠
 
 ## Usage
  1.⁠ ⁠Open your web browser and navigate to [http://localhost:8501](http://localhost:8501).
@@ -45,7 +46,7 @@ To run Dr. AI Guru locally, follow these steps:
 
 ## Dependencies
 •⁠  ⁠Streamlit
-•⁠  ⁠OpenAI 
+•⁠  ⁠MistralAI 
 •⁠  ⁠Other dependencies listed in ⁠ requirements.txt ⁠
 
 ## Contact
