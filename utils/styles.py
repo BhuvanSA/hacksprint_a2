@@ -29,12 +29,24 @@ def set_page_style():
                 border-radius: 0 10px 10px 0;
                 border: 2px solid #d3d3d3;
             }
-            .marquee {
-                animation: marquee 20s linear infinite;
+            .left-aligned-disclaimer {
+                text-align: left !important;
+                font-size: 0.8rem !important;
+                font-weight: normal !important;
+                width: 100% !important;
+                padding: 0 !important;
+                margin: 0 !important;
             }
-            @keyframes marquee {
-                0% { transform: translateX(100%); }
-                100% { transform: translateX(-100%); }
+            .left-aligned-disclaimer > * {
+                text-align: left !important;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            [data-testid="column"] > div:has(> .left-aligned-disclaimer) {
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                width: 100%;
             }
             .stTextInput > div {
                 width: 100% !important;
@@ -47,6 +59,23 @@ def set_page_style():
                 width: 200px;
                 height: 40px;
                 align: center;
+            }
+            .big-left-aligned-disclaimer {
+                text-align: left !important;
+                font-size: 1.2rem !important;
+                font-weight: normal !important;
+                width: 100% !important;
+                padding: 10px 0 !important;
+                margin: 0 !important;
+                color: #333 !important;
+            }
+            /* Override Streamlit's default centering */
+            .stMarkdown {
+                display: flex;
+                justify-content: flex-start !important;
+            }
+            .stMarkdown > div {
+                width: 100% !important;
             }
         </style>
         """,

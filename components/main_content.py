@@ -13,30 +13,30 @@ def render_main_content():
 
     col1, col2, col3 = st.columns([1, 1, 10])
 
-    with col3:
-        st.markdown(
-            f'<h1 class="marquee">{disclaimer_text}</h1>', unsafe_allow_html=True
-        )
+    st.markdown(
+        f'<div class="big-left-aligned-disclaimer">{disclaimer_text}</div>',
+        unsafe_allow_html=True,
+    )
 
     col2_1, col2_2, col2_3 = st.columns(3)
 
     age_group = col2_1.selectbox(
-        "Age Group (required)",
+        "Your Age Group (required)",
         ["", "0-10", "11-18", "19-30", "31-45", "46-60", "60+"],
         key="age_group_selectbox_widget",
         on_change=update_session_state("age_group_selectbox"),
     )
 
     gender = col2_2.selectbox(
-        "Gender (required)",
+        "Your Gender (required)",
         ["", "Male", "Female", "Other"],
         key="gender_selectbox_widget",
         on_change=update_session_state("gender_selectbox"),
     )
 
     previous_medical_record = col2_3.text_area(
-        "Previous Medical Record (required):",
-        "",
+        "Previous Medical Record if any:",
+        "None",
         key="previous_medical_record_textarea_widget",
         height=100,
         on_change=update_session_state("previous_medical_record_textarea"),
